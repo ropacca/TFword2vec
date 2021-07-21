@@ -1,6 +1,5 @@
 # TFword2vec
 Classificação de autoria textual a partir de embeddings treinados em Word2Vec (modalidade SkipGram)
-Predição da autoria de tweets com base em um corpora treinado em uma rede neural Word2Vec na modalidade SkipGram
 
 PUC Minas Gerais - Trabalho de Conclusão de Curso apresentado ao Curso de Especialização em Ciência de Dados e Big Data como requisito parcial à obtenção do título de especialista.
 
