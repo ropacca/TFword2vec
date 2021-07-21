@@ -6,11 +6,11 @@ PUC Minas Gerais - Trabalho de Conclusão de Curso apresentado ao Curso de Espec
 
 # Conteúdo do arquivo TFword2vec.IPYNB
 1. Dataset
-* Extração de dados da API e persistência do respectivo dataset no sistema de arquivos do SO
+   * Extração de dados da API e persistência do respectivo dataset no sistema de arquivos do SO
 2. Carregando os dados do sistema de arquivos
 3. Separação de arquivos para teste
 4. Tokenizando o corpora coletivamente entre os autores
-* Tokenizando o corpora para os dados de teste
+   * Tokenizando o corpora para os dados de teste
 5. Construindo os Dicionários
 6. Exploração inicial dos dados
 7. Gerando Lotes de Dados para o Skip-Gram
@@ -19,9 +19,9 @@ PUC Minas Gerais - Trabalho de Conclusão de Curso apresentado ao Curso de Espec
 10. Visualizando o resultado do treinamento do Word2Vec
 11. Criando embeddings únicos para cada autor e para cada entrada de teste
 12. Criando uma matriz de distância para analisar a semelhança entre os diversos embeddings
-* Fazendo um recorte apenas nos dados de relação treino-teste
+   * Fazendo um recorte apenas nos dados de relação treino-teste
 13. Utilizando os algoritmos de classificação Centróide Mais Próximo (NearestCentroid) e Regressão Logistica (Logistic Regression) para predição das entradas de teste
-* Centróide Mais Próximo
-* Regressão Logística
-* Algoritmos com performance menor
+   * Centróide Mais Próximo
+   * Regressão Logística
+   * Algoritmos com performance menor
 14. Resultado final
