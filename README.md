@@ -5,23 +5,23 @@ Predição da autoria de tweets com base em um corpora treinado em uma rede neur
 PUC Minas Gerais - Trabalho de Conclusão de Curso apresentado ao Curso de Especialização em Ciência de Dados e Big Data como requisito parcial à obtenção do título de especialista.
 
 # Conteúdo do arquivo TFword2vec.IPYNB
-- 1. Dataset
--- 1.1. Extração de dados da API e persistência do respectivo dataset no sistema de arquivos do SO
-- 2. Carregando os dados do sistema de arquivos
-- 3. Separação de arquivos para teste
-- 4. Tokenizando o corpora coletivamente entre os autores
-- - 4.1 Tokenizando o corpora para os dados de teste
-- 5. Construindo os Dicionários
-- 6. Exploração inicial dos dados
-- 7. Gerando Lotes de Dados para o Skip-Gram
-- 8. Criando o grafo do TensorFlow
-- 9. Rodando o modelo do TensorFlow
-- 10. Visualizando o resultado do treinamento do Word2Vec
-- 11. Criando embeddings únicos para cada autor e para cada entrada de teste
-- 12. Criando uma matriz de distância para analisar a semelhança entre os diversos embeddings
-- - 12.1 Fazendo um recorte apenas nos dados de relação treino-teste
-- 13. Utilizando os algoritmos de classificação Centróide Mais Próximo (NearestCentroid) e Regressão Logistica (Logistic Regression) para predição das entradas de teste
-- - 13.1 Centróide Mais Próximo
-- - 13.2 Regressão Logística
-- - 13.3 Algoritmos com performance menor
-- 14. Resultado final
+1. Dataset
+1.1. Extração de dados da API e persistência do respectivo dataset no sistema de arquivos do SO
+2. Carregando os dados do sistema de arquivos
+3. Separação de arquivos para teste
+4. Tokenizando o corpora coletivamente entre os autores
+4.1 Tokenizando o corpora para os dados de teste
+5. Construindo os Dicionários
+6. Exploração inicial dos dados
+7. Gerando Lotes de Dados para o Skip-Gram
+8. Criando o grafo do TensorFlow
+9. Rodando o modelo do TensorFlow
+10. Visualizando o resultado do treinamento do Word2Vec
+11. Criando embeddings únicos para cada autor e para cada entrada de teste
+12. Criando uma matriz de distância para analisar a semelhança entre os diversos embeddings
+12.1 Fazendo um recorte apenas nos dados de relação treino-teste
+13. Utilizando os algoritmos de classificação Centróide Mais Próximo (NearestCentroid) e Regressão Logistica (Logistic Regression) para predição das entradas de teste
+13.1 Centróide Mais Próximo
+13.2 Regressão Logística
+13.3 Algoritmos com performance menor
+14. Resultado final
